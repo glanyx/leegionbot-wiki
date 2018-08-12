@@ -65,12 +65,10 @@ Checks the delay between client and server and posts the response time in millis
 
 ### === Help ===
 **Construction**
-`lb!help [Optional:recipient]`
-
-Where [recipient] is a mentioned user.
+`lb!help`
 
 **Usage**
-Sends a help message to requester over Direct Messages. If a [recipient] has been specified, the help message will be sent to [recipient] instead (E.G. `lb!help @Xaladon#0001`).
+Sends a help message to requester over Direct Messages. Only the bot owner can send help information to others.
 
 ## Special Leegion Commands
 Special Leegion Commands are unique in the way that they add value to a Leegion specific event or behaviour.
@@ -184,3 +182,12 @@ Bot Owner
 
 **Usage**
 Checks that the bot is active and returns the current server ID.
+
+### === Help ===
+**Construction**
+`lb!help [Optional:recipient]`
+
+Where [recipient] is a mentioned user.
+
+**Usage**
+Sends a help message to requester over Direct Messages. If a [recipient] has been specified, the help message will be sent to [recipient] instead (E.G. `lb!help @Xaladon#0001`). Only the bot owner can send help information to others.
