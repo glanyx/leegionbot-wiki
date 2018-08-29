@@ -37,6 +37,13 @@ Where: [user] is a mentioned user.
 **Usage**
 Returns an embedded message containing basic information about the [user] (Example: `lb!who @Xaladon#0001`).
 
+### === Stats ===
+**Construction**
+`lb!stats`
+
+**Usage**
+Returns a list of statistics related to the current server.
+
 ### === Tiers ===
 **Construction**
 `lb!tiers [tier]`
@@ -81,7 +88,19 @@ Manage Roles or Bot Owner
 `lb!livechat [start / end]`
 
 **Usage**
-Starts or ends the Lieutenant tier and up Livechat on Discord. Role permissions are changed to allow access to the Patreon Livechat Voice Channel and an announcement is made to the Lieutenant channel on start. With the end attribute the permissions are denied and another announcement is made to the Lieutenant channel.
+Starts or ends the Lieutenant tier and up Livechat on Discord. Role permissions are changed to allow access to the Patreon Livechat Voice Channel and an announcement is made to the Livechat Text channel on start. With the end attribute the permissions are denied and another announcement is made to the Lieutenant channel.
+
+All users will be forceably muted when the Livechat starts.
+
+### === Livechat Mute ===
+**Permissions Required**
+Manage Roles or Bot Owner
+
+**Construction**
+`lb!livechat [mute / unmute]`
+
+**Usage**
+Mutes or Unmutes all relevant roles part of the Livechat Voice Channel.
 
 ## Elevated Permission Commands
 This set of commands all require specific server rights within the Discord server. Commands in this set are generally related to server management.
