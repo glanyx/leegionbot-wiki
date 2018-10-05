@@ -80,6 +80,30 @@ Sends a help message to requester over Direct Messages. Only the bot owner can s
 ## Special Leegion Commands
 Special Leegion Commands are unique in the way that they add value to a Leegion specific event or behaviour.
 
+### === Suggestion Add ===
+**Construction**
+`lb!suggestion add [your suggestion]`
+`lb!sg add [your suggestion]`
+
+Where: [your suggestion] is a suggestion formed of any string of characters.
+
+**Usage**
+Create a suggestion for the server to upvote or downvote and for the moderator team to review. The suggestion will be posted in the Suggestions channel. Suggestions should be in regards to and of benefit to the Discord server or the Leegion as a whole.
+
+### === Suggestion Edit ===
+**Permissions Required**
+Suggestion Author, Manage Roles or Bot Owner
+
+**Construction**
+`lb!suggestion edit [Suggestion ID] [your suggestion]`
+`lb!sg edit [Suggestion ID] [your suggestion]`
+
+Where: [Suggestion ID] is the ID assigned to your suggestion in the Suggestions channel on Discord.
+Where: [your suggestion] is a suggestion formed of any string of characters.
+
+**Usage**
+Allows you to edit an existing Suggestion. You can only edit Suggestions created by yourself and only when they have not yet been processed by a moderator. Moderators can always edit any Suggestion.
+
 ### === Livechat ===
 **Permissions Required**
 Manage Roles or Bot Owner
